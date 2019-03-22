@@ -1,0 +1,35 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "vn.edu.tgu"
+    },
+    "jhipsterVersion": "5.8.1",
+    "applicationType": "microservice",
+    "baseName": "quanlyxuatan",
+    "packageName": "vn.edu.tgu",
+    "packageFolder": "vn/edu/tgu",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MDkxMWYwNTNiMWFhMzk0Zjg2M2Y5MTI3ZDVhZmFjMzA4NmZiMDNkNjYxMTdmOGYxYWQzMDhjZGUzMzAwM2RmZWNhMGMxOWNhNjRjMjNmN2JhMWUzZjAzOGU4MmZjZGIwODcxYWM2ZDBhMzQzNzMwYWNiMmQ1NmQ1ZjgzNjZhZDA=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
