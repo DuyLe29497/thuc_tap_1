@@ -145,7 +145,7 @@ export class ThemDonDeXuat extends React.Component<IThemMoiDonDeXuatProps, IThem
                                     />
                                 </AvGroup>
                                 <AvGroup>
-                                    <Label for="sophieu1">Số phiếu lần 2</Label>
+                                    <Label for="sophieu2">Số phiếu lần 2</Label>
                                     <AvField
                                         type="number"
                                         className="form-control"
@@ -160,7 +160,7 @@ export class ThemDonDeXuat extends React.Component<IThemMoiDonDeXuatProps, IThem
                                     />
                                 </AvGroup>
                                 <AvGroup>
-                                    <Label for="sophieu1">Số phiếu lần 3</Label>
+                                    <Label for="sophieu3">Số phiếu lần 3</Label>
                                     <AvField
                                         type="number"
                                         className="form-control"

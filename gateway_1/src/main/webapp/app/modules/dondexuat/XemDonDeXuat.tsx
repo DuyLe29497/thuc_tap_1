@@ -37,11 +37,11 @@ export class XemDonDeXuat extends React.Component<IThemMoiDonDeXuatProps> {
                         ) : (
                             <AvForm>
                                     <AvGroup>
-                                        <Label for="id">Mã đơn đề xuất</Label>
+                                        <Label for="MADON">Mã đơn đề xuất</Label>
                                         <AvField type="text" className="form-control" name="MA_DON" required readOnly value={dondexuat.MA_DON} />
                                     </AvGroup>
                                 <AvGroup>
-                                    <Label for="tenhinhthuc">Mã bệnh nhân</Label>
+                                    <Label for="mabenhnhan">Mã bệnh nhân</Label>
                                     <AvField
                                         name="MA_BENH_NHAN"
                                         type="text"
@@ -51,7 +51,7 @@ export class XemDonDeXuat extends React.Component<IThemMoiDonDeXuatProps> {
                                     />
                                 </AvGroup>
                                 <AvGroup>
-                                    <Label for="tenhinhthuc">Lí dot</Label>
+                                    <Label for="lido">Lí dot</Label>
                                     <AvField
                                         name="LI_DO"
                                         type="text"
@@ -61,7 +61,7 @@ export class XemDonDeXuat extends React.Component<IThemMoiDonDeXuatProps> {
                                     />
                                 </AvGroup>
                                 <AvGroup>
-                                    <Label for="tenhinhthuc">Chế độ ăn</Label>
+                                    <Label for="chedoan">Chế độ ăn</Label>
                                     <AvField
                                         name="CHE_DO_AN"
                                         type="text"
@@ -71,7 +71,7 @@ export class XemDonDeXuat extends React.Component<IThemMoiDonDeXuatProps> {
                                     />
                                 </AvGroup>
                                 <AvGroup>
-                                    <Label for="tenhinhthuc">Số phiếu lần 1</Label>
+                                    <Label for="sophieulan1">Số phiếu lần 1</Label>
                                     <AvField
                                         name="SO_PHIEU_LAN_1"
                                         type="text"
@@ -81,7 +81,7 @@ export class XemDonDeXuat extends React.Component<IThemMoiDonDeXuatProps> {
                                     />
                                 </AvGroup>
                                 <AvGroup>
-                                    <Label for="tenhinhthuc">Số phiếu lần 2</Label>
+                                    <Label for="sophieulan2">Số phiếu lần 2</Label>
                                     <AvField
                                         name="SO_PHIEU_LAN_2"
                                         type="text"
@@ -91,7 +91,7 @@ export class XemDonDeXuat extends React.Component<IThemMoiDonDeXuatProps> {
                                     />
                                 </AvGroup>
                                 <AvGroup>
-                                    <Label for="tenhinhthuc">Số phiếu lần 3</Label>
+                                    <Label for="sophieulan3">Số phiếu lần 3</Label>
                                     <AvField
                                         name="SO_PHIEU_LAN_3"
                                         type="text"
@@ -101,7 +101,7 @@ export class XemDonDeXuat extends React.Component<IThemMoiDonDeXuatProps> {
                                     />
                                 </AvGroup>
                                 <AvGroup>
-                                    <Label for="tenhinhthuc">Tình trạng duyệt</Label>
+                                    <Label for="tinhtrangduyet">Tình trạng duyệt</Label>
                                     <AvField
                                         style={{ color:  dondexuat.TINH_TRANG_DUYET === 1 ? '#7FFF00' : 'Red' } }
                                         name="TINH_TRANG_DUYET"
@@ -112,7 +112,7 @@ export class XemDonDeXuat extends React.Component<IThemMoiDonDeXuatProps> {
                                     />
                                 </AvGroup>
                                 <AvGroup>
-                                    <Label for="tenhinhthuc">Ngày lập</Label>
+                                    <Label for="ngaylap">Ngày lập</Label>
                                     <AvField
                                         name="NGAY_LAP"
                                         type="text"
@@ -122,7 +122,7 @@ export class XemDonDeXuat extends React.Component<IThemMoiDonDeXuatProps> {
                                     />
                                 </AvGroup>
                                 <AvGroup>
-                                    <Label for="tenhinhthuc">Ngày duyệt</Label>
+                                    <Label for="ngayduyet">Ngày duyệt</Label>
                                     <AvField
                                         name="NGAY_DUYET"
                                         type="text"
